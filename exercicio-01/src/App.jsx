@@ -5,8 +5,10 @@ function App() {
       <img src="/react.png" alt="react-img" loading="lazy" />
       <h1>React</h1>
       <p>A biblioteca para interfaces de usuários web e nativas</p>
-      <button>Aprenda React</button>
-      <button>Referência de API</button>
+      <div>
+        <button>Aprenda React</button>
+        <button>Referência de API</button>
+      </div>
       <hr />
       <h2>Crie interfaces de usuários de componentes</h2>
       <p>React permite que você construa interfaces de usuários a partir de pedaços individuais chamados componentes.</p>
