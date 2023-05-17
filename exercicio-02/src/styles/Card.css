@@ -1,0 +1,46 @@
+.card {
+    display: flex;
+    border-radius: 8px;
+    gap: 60px;
+    height: 400px;
+    width: 900px;
+    padding: 60px 40px;
+    background-color: #D7E1E7;
+}
+
+.card img {
+    border: 8px solid #000;
+}
+
+.card .content {
+    display: flex;
+    font: sans-serif;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.content h1 {
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.content p {
+    font-size: 1em;
+}
+
+.content button {
+    width: max-content;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #121212;
+    color: #fff;
+}
+
+.content button:hover {
+    background-color: #fff;
+    color: #121212;
+    transition: .2s;
+}
