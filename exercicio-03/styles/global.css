@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a, button {
+    all: unset;
+}
+
+a {
+    scroll-behavior: smooth;
+}
+
+.container-all {
+    min-height: 100vh;
+    background-color: #687df548;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
