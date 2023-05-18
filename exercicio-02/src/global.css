@@ -17,7 +17,6 @@ body {
 
 section.container-cards {
     min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    padding: 5% 15%;
+    display: inline-flex;
+    gap: 10px;
 }

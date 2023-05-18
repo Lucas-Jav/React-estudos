@@ -16,6 +16,16 @@ function App() {
           de Star Wars para qualquer lugar que voc® decidir pendurar. Nao perca
           ‘a chance de adicionar essa linda meméria ao seu acervo!"
         > </Card>
+        <Card
+          img="https://i.pinimg.com/originals/ba/94/64/ba9464145eba8762f6286a3c8387c951.jpg"
+          alt="img-starwars"
+          title="Pôster: Pôster: Return of the Jedi (1983)"
+          description="Um péster decorativo épico do filme Star Wars, com moldura de MDF e
+          tamanho A3, Uma étima recordaco de um dos mais icdnicos filmes de
+          todos os tempos. Este classico péster trard aventura, nostalgia e a magia
+          de Star Wars para qualquer lugar que voc® decidir pendurar. Nao perca
+          ‘a chance de adicionar essa linda meméria ao seu acervo!"
+        > </Card>
       </section>
     </>
   )
