@@ -1,15 +1,16 @@
 .card {
     display: flex;
     border-radius: 8px;
-    gap: 60px;
-    height: 400px;
-    width: 900px;
-    padding: 60px 40px;
+    gap: 4rem;
+    height: 30rem;
+    width: 50rem;
+    padding: 4rem;
     background-color: #D7E1E7;
 }
 
 .card img {
     border: 8px solid #000;
+    box-shadow:  0 24px 32px -16px rgba(0, 0, 0, 0.4);
 }
 
 .card .content {
@@ -21,26 +22,27 @@
 
 .content h1 {
     font-weight: 600;
-    font-size: 2em;
+    font-size: 1.75rem;
 }
 
 .content p {
-    font-size: 1em;
+    font-size: 1rem;
+    line-height: 1.5;
 }
 
 .content button {
     width: max-content;
     font-weight: 600;
-    padding: 10px 15px;
-    border-radius: 8px;
-    font-size: 1em;
+    padding: .75em 1.25em;
+    border-radius: .5rem;
+    font-size: 1rem;
     cursor: pointer;
     background-color: #121212;
+    box-shadow:  0 2px 4px rgba(0, 0, 0, 0.2);
     color: #fff;
 }
 
 .content button:hover {
-    background-color: #fff;
-    color: #121212;
-    transition: .2s;
+    transition: .3s;
+    margin-left: .5rem;
 }
