@@ -1,6 +1,10 @@
-function Button({ href, title }) {
+function Button({ href, children }) {
     return (
-        <a href={ href }>{ title }</a>
+        <a 
+        href={ href } 
+        target="_blank">
+            { children }
+        </a>
     )
 }
 

@@ -17,22 +17,6 @@
     aspect-ratio: 1;
 }
 
-.Card h2 {
-    width: 100%;
-    text-align: center;
-    font-size: 2rem;
-    padding: 8px 0px;
-    border-bottom: 1px solid #687df548;
-}
-
-.Card p {
-    width: 100%;
-    text-align: center;
-    font-size: 1rem;
-    padding: 15px 0px;
-    border-bottom: 1px solid #687df548;
-}
-
 .Card a {
     width: 100px;
     text-align: center;
@@ -47,4 +31,13 @@
 
 .Card a:hover {
     box-shadow: none;
+}
+
+.flwBtn {
+    all: unset;
+    margin-left: 1rem;
+    border: 1px solid;
+    font-size: 1rem;
+    border-radius: 6px;
+    padding: .225rem;
 }
